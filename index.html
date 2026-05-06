@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style web.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Accueil</title>
+</head>
+<body>
+
+    <button onclick="scrollToTop()" id="scrollTopBtn" class="btn-top">
+  <span class="material-symbols-outlined">arrow_upward</span>
+</button>
+
+<div class="hero-container">
+    <section class="hero">
+
+               <div class="slideshow">
+                <div class="slide" style="background-image: url('images/bgForMy.png');"></div>
+                <div class="slide" style="background-image: url('images/de\ canva\ 2.jpg');"></div>
+                <div class="slide" style="background-image: url('images/de\ canva3.jpg');"></div>
+                </div> 
+
+             <div class="hero-content">    
+                <h1 class="bg-text" data-i18n="hero.brand"> LE BAOBAB</h1>
+                <h2 class="main-title" data-i18n="hero.title">Gourmand</h2>
+                
+                </div> 
+                </section>
+        </div>
+        
+      <header>
+	     <nav>
+             <button class="open-btn" onclick="toggleNav()">☰</button>
+                 <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
+                    <a href="index.html"><i data-i18n="nav.home">Accueil</i></a>
+                    <a href="menu.html"><i data-i18n="nav.menu">Menu</i></a>
+                    <a href="contact.html"><i data-i18n="nav.contact">Contact</i></a>
+                    <a href="about.html"><i data-i18n="nav.about">A propos</i></a>
+                 </div>
+	    </nav>
+        
+	 </header> 
+        <nav class="navbar">
+        <div class="nav-right">
+            <div class="language-switcher">
+                
+                <span id="btn-fr" class="active" onclick="changerLangue('fr')">FR</span> 
+                <span class="separateur">|</span>
+                <span id="btn-en" onclick="changerLangue('en')">EN</span>
+                </div>
+                <a href="#" id="openBooking" class="btn-reserver" data-i18n="btn.reserve">RESERVER UNE TABLE</a>
+        </div>
+        </nav>
+        
+            
+       <section class="restaurant-section fade-up">
+    <h2 class="section-title" data-i18n="section.featured">Nos Plats Vedettes</h2>
+    
+    <div class="slider-container">
+        <div class="card">
+            <div class="card-image" style="background-image: url('images/dama\ sonou6.jpeg');"></div>
+            <h3 data-i18n="card1.title">SPÉCIALITÉ DU CHEF</h3>
+            <p data-i18n="card1.desc">Une explosion de saveurs locales.</p>
+            <a href="menu.html"><i data-i18n="card1.link">VOIR LE MENU</i></a>
+        </div>
+        
+        <div class="card">
+            <div class="card-image" style="background-image: url('images/dama\ sonou2.avif');"></div>
+            <h3 data-i18n="card2.title">DÉLICE GOURMAND</h3>
+            <p data-i18n="card2.desc">Le mariage parfait du croquant et du fondant.</p>
+            <a href="menu.html"><i data-i18n="card2.link">VOIR LE MENU</i></a>
+           
+        </div>
+        
+        <div class="card">
+            <div class="card-image" style="background-image: url('images/dama\ sonou4.avif');"></div>
+            <h3 data-i18n="card3.title">FRAÎCHEUR MARINE</h3>
+            <p data-i18n="card3.desc">Produits frais pêchés le matin même.</p>
+            
+            <a href="menu.html"><i data-i18n="card3.link">VOIR LE MENU</i></a>
+        </div>
+    </div>
+    
+    <div class="slider-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    
+</section>
+
+<section class="about-restaurant fade-up" style="animation-delay: 0.2s;">
+    <div class="about-content">
+        <h2 data-i18n="about.title">L'Art de la Table</h2>
+        <p data-i18n="about.p1">Bienvenue chez <strong>Le Baobab Gourmand</strong>. Notre restaurant vous accueille dans un cadre chaleureux pour vous faire découvrir une cuisine authentique et raffinée, inspirée des traditions tout en étant résolument moderne.</p>
+        <p data-i18n="about.p2">Tout le monde se retrouve avec bonheur à Le Baobab Gourmand,Le restaurant de Dakar vue sur mer vous reçoit dans un cadre idyllique pour des déjeuners et dîners savoureux et ensoleillés. <br> Dans l’agréable fraîcheur de la vaste terrasse ombragée, vous bénéficiez d’un panorama exceptionnel avec en toile de fond les îles de la Madeleine. <br>Plaisir d’être là en famille, en couple, avec vos amis ou pour un déjeuner d’affaires en semaine. </p>
+            <p data-i18n="about.hours">Ouverte tous les jours de <strong><u>10h00 à 01h00</u></strong>, Le Baobab Gourmand vous donne rendez-vous pour faire rimer gastronomie et détente.</p>
+    </div>
+</section>
+
+<section class="testimonials fade-up" style="animation-delay: 0.4s;">
+    <h2 class="section-title" data-i18n="testimonials.title">Ce que disent nos clients</h2>
+    <div class="testimonial-grid">
+        <div class="testimonial-item">
+            <p data-i18n="testimonial1.text">"Une expérience culinaire inoubliable. Le service est impeccable et les plats sont de véritables œuvres d'art."</p>
+            <span data-i18n="testimonial1.author">- Xalil Faye</span>
+        </div>
+        <div class="testimonial-item">
+            <p data-i18n="testimonial2.text">"Le meilleur restaurant de la ville ! Je recommande vivement le plat vedette du chef."</p>
+            <span data-i18n="testimonial2.author">- Marie Koné</span>
+        </div>
+        <div class="testimonial-item">
+            <p data-i18n="testimonial3.text">"Geudj na leik lou neexe ni.Les plats sont incroyables,ce ne sera surement pas ma dernière fois"</p>
+            <span data-i18n="testimonial3.author">- khadija Mb</span>
+        </div>
+    </div>
+</section>
+
+
+<div id="bookingModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 style="text-align: center;" data-i18n="modal.title">Réservation - Le Baobab Gourmand</h2>
+    
+    <form id="reservation-form">
+      <div class="form-group">
+        <label data-i18n="modal.dateLabel">Date :</label>
+        <input type="date" name="date" required>
+      </div>
+
+      <div class="form-group">
+        <label data-i18n="modal.hourLabel">Heure :</label>
+        <select name="heure">
+          <option>12:00 PM</option>
+          <option>1:00 PM</option>
+          <option>7:30 PM</option>
+          <option>8:30 PM</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label data-i18n="modal.peopleLabel">Personnes :</label>
+        <input type="number" name="convives" min="1" max="20" value="2">
+      </div>
+
+      <button type="submit" class="btn-submit" data-i18n="modal.confirmButton">Confirmer la réservation</button>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+       
+        
+     <script src="images/script.js"></script>
+</body>
+</html>

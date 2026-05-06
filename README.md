@@ -19,7 +19,15 @@ Filtre dynamique menu avec le fichier script.js : Affiche/masque les plats par c
 Carousel Bootsrap avec le fichier index.html : Defilement automatique des plats signature
 Bouton retour en haut avec le fichier script.js : Apparait dans chaque page
 ## Captures d'écran
+<img width="2312" height="1445" alt="MacBook Pro-1778095943301" src="https://github.com/user-attachments/assets/d42231c3-48b1-4023-b79c-974083a33d3a" />
+Sur oridnateur
 
+<img width="1233" height="1644" alt="iPad-1778094633689" src="https://github.com/user-attachments/assets/0801ef93-d5f6-43b0-a043-c6205189190c" />
+Sur tablette
+
+<img width="684" height="1280" alt="WhatsApp Image 2026-05-06 at 21 36 11" src="https://github.com/user-attachments/assets/0c5fafaa-26f2-473b-bc13-fc64f44a9c13" />
+
+Sur telephone
 ## Equipe
 -Serigne Moussa SY
 -Mame Diarra CISSE 2

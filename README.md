@@ -10,9 +10,9 @@ Un nouveau restaurant de cuisine africaine moderne souhaite un site vitrine eleg
 JavaScript         Interactive et validations 
 Netlify             Depoliement en ligne
 ## lien en ligne
-  
-  ## lien en ligne
-  https://github.com/khadijambacke878-tech/mon-projet.git            
+https://khadijambacke878-tech.github.io/mon-projet/
+## lien de depot sur Github
+https://github.com/khadijambacke878-tech/mon-projet.git            
 ## Fonctionnalités
 Validation formulaire avec le fichier script.js : Champs obligatoires + format email
 Filtre dynamique menu avec le fichier script.js : Affiche/masque les plats par catégorie
